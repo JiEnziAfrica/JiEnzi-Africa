@@ -194,17 +194,6 @@ export function GetInvolvedSection() {
                   className="photo-drift photo-drift--detail get-involved__visual-image object-cover"
                 />
               </div>
-              <figcaption className="get-involved__visual-caption">
-                Reference photo ·{" "}
-                <a
-                  href="https://www.pexels.com/photo/close-up-photo-of-group-of-volunteers-7156162/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Gustavo Fring / Pexels
-                </a>
-                .
-              </figcaption>
             </figure>
           </div>
         </Container>

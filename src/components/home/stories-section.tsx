@@ -1,5 +1,8 @@
+import Image from "next/image";
+
 import { Container } from "@/components/layout/container";
 import { Section } from "@/components/layout/section";
+import { assetPath } from "@/lib/assets";
 
 export function StoriesSection() {
   return (
@@ -23,17 +26,25 @@ export function StoriesSection() {
             JiEnzi Africa creates space for storytelling and dialogue that
             connects experience with reflection and action.
           </p>
+          <figure className="stories-visual">
+            <Image
+              src={assetPath("/images/stories-conversation.jpg")}
+              alt="Three young women sharing a lively conversation on outdoor steps."
+              fill
+              sizes="(min-width: 1024px) 450px, (min-width: 640px) 540px, 92vw"
+              className="photo-drift photo-drift--detail object-cover"
+            />
+          </figure>
         </div>
 
-        <div>
+        <div className="lg:self-center">
           <blockquote className="border-l-[3px] border-[var(--color-brand-yellow)] pl-5 sm:pl-7">
             <p className="text-pretty text-lg font-bold leading-snug text-[var(--color-ink)] sm:text-xl lg:text-2xl">
               “We become who we are by what we choose, and what we are willing
               to let go.”
             </p>
             <footer className="mt-5 text-xs font-semibold leading-5 text-[var(--color-muted)] sm:text-sm">
-              From JiEnzi Africa&apos;s supplied #SOAR quote artwork; no individual
-              author is identified.
+              From JiEnzi Africa&apos;s supplied #SOAR quote artwork.
             </footer>
           </blockquote>
 
@@ -46,10 +57,6 @@ export function StoriesSection() {
               mindsets. Approved episode links and first-person stories were
               not included in the materials for this build, so none are
               presented as published here.
-            </p>
-            <p className="mt-4 text-xs font-semibold leading-5 text-[var(--color-muted)] sm:text-sm">
-              Next content needed: approved episodes, written reflections, and
-              permission to publish any participant stories or photographs.
             </p>
           </div>
         </div>

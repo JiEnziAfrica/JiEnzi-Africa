@@ -56,3 +56,11 @@ Constraints:
 - Do not copy either reference site's branding or content.
 
 Task 001 remains limited to the project foundation. These notes are for future design-system and homepage tasks.
+
+## Stories Conversation Visual
+
+- Local asset: `public/images/stories-conversation.jpg`.
+- Pinterest source: https://www.pinterest.com/pin/905293962565191381/.
+- Image source: https://i.pinimg.com/736x/8b/78/46/8b78463f0c45222ab6e33518a0b763a8.jpg.
+- Depicts a conversation between three young women; no claim of JiEnzi participation.
+- Displayed without a visible caption or text overlay, as requested.
